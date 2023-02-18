@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.nav-barre-verticale {
+    top :50%;
+    transform: translateY(-50%);
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+    height: 80%;
+    width: 80px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    transition: all 0.6s ease;
+}
+
+a {
+    text-decoration:none;
+}
+
+.btn-nav:hover {
+    color:#FF4655;
+}
+
+.map {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map1 {
+    background-color: #DACFE5;
+}
+
+.map2 {
+    background-color: #B68C72;
+}
+
+.map3 {
+    background-color: #ABAAB4;
+}
+
+.map4 {
+    background-color:#939294;
+}
+
+.map5 {
+    background-color: #C9AB90;
+}
+
+.map6 {
+    background-color:#98AADA;
+}
+
+.map7 {
+    background-color: #586848;
+}
+
+.map8 {
+    background-color: #5C9FBC;
+}
+
+.map9 {
+    background-color: #8D9EA0;
+}
+
+.title-map {
+    display: flex;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:black;
+}
+
+.ctn-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+}
+
+@media screen and (max-width:1200px) {
+    .title-map {
+        font-size:40px;
+    }
+
+    .ctn-map {
+        width: 700px;
+        height: 350px;
+    }
+
+    .nav-barre-verticale {
+        width: 60px;
+    }
+
+    .btn-nav {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .title-map {
+        font-size:30px;
+    }
+
+    .ctn-map {
+        width: 300px;
+        height: 150px;
+    }
+
+    .nav-barre-verticale {
+        width: 40px;
+    }
+
+    .btn-nav {
+        font-size: 11px;
+    }
+}
+
