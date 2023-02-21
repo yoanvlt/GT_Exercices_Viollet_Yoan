@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    height: 400px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.ctn-gen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    width: 220px;
+    height: 150px;
+    margin: 0 20px;
+}
+
+.ctn-copyright {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.avert-img {
+    margin-top: 30px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top : 30px;
+    margin-right: 20px;
+}
