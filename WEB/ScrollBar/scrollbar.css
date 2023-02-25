@@ -10,14 +10,14 @@ body {
 }
 
 .scrollbar-containeur::-webkit-scrollbar {
-    width: 10px; /* largeur de la scrollbar */
+    width: 10px; 
 }
   
 .scrollbar-containeur::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* couleur de la scrollbar */
-    border-radius: 5px; /* bordure arrondie */
+    background-color: #ccc; 
+    border-radius: 5px; 
 }
   
 .scrollbar-containeur::-webkit-scrollbar-thumb:hover {
-    background-color: #FF4655; /* couleur de la scrollbar au survol */
+    background-color: #FF4655; 
 }
