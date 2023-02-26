@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     background-color: #111;
 }
@@ -31,6 +32,12 @@
   
 .slider-wrapper {
     animation: slide 10s infinite; 
+}
+
+.text-car {
+    color :#FF4566;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
   
 @keyframes slide {
@@ -82,6 +89,10 @@
           transform: translateX(0); 
         }
     }
+
+    .text-car {
+        font-size: 30px;
+    }
 }
  @media screen and (max-width: 800px) {
     .slider-container {
@@ -114,6 +125,10 @@
         100% {
           transform: translateX(0); 
         }
+    }
+
+    .text-car {
+        font-size: 20px;
     }
     
  }

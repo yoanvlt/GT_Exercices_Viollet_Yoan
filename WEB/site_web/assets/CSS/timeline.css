@@ -23,7 +23,7 @@ body {
     border-left: 3px solid #FF4655;
 }
   
-p{
+.line p{
     font-family: 12px;
     text-align: center;
     width:500px;
@@ -34,7 +34,7 @@ p{
     position: relative;
 }
   
-p:before{
+.line p:before{
     content: '';
     position: absolute;
     left: -40px;
@@ -46,7 +46,7 @@ p:before{
     background-color: #FF4655;
 }
   
-p:after{
+.line p:after{
     content: '';
     position: absolute;
     left: -18px;
