@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.placement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+}
+
+.slider-container {
+    width: 1000px;
+    height: 500px;
+    overflow: hidden; 
+}
+
+.slider-wrapper {
+    width: 4000px; 
+    height: 500px;
+    display: flex; 
+}
+  
+.slider-wrapper img {
+    width: 1000px;
+    height: 500px;
+}
+  
+.slider-wrapper {
+    animation: slide 10s infinite; 
+}
+  
+@keyframes slide {
+    0% {
+      transform: translateX(0); 
+    }
+    25% {
+      transform: translateX(-1000px); 
+    }
+    50% {
+      transform: translateX(-2000px); 
+    }
+    75% {
+      transform: translateX(-30000); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+}   
+
+@media screen and (max-width: 1200px) {
+    .slider-container {
+        width:700px;
+        height: 350px;
+    }
+    .slider-wrapper img {
+        width: 700px;
+        height: 350px;
+    }
+
+    .slider-wrapper {
+        width: 2800px;
+    }
+
+    @keyframes slide {
+        0% {
+          transform: translateX(0); 
+        }
+        25% {
+          transform: translateX(-700px); 
+        }
+        50% {
+          transform: translateX(-1400px); 
+        }
+        75% {
+          transform: translateX(-2100px); 
+        }
+        100% {
+          transform: translateX(0); 
+        }
+    }
+}
+ @media screen and (max-width: 800px) {
+    .slider-container {
+        width: 500px;
+        height: 250px;
+    }
+
+    .slider-wrapper img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .slider-wrapper {
+        width: 2000px;
+    }
+
+    @keyframes slide {
+        0% {
+          transform: translateX(0); 
+        }
+        25% {
+          transform: translateX(-500px); 
+        }
+        50% {
+          transform: translateX(-1000px); 
+        }
+        75% {
+          transform: translateX(-1500px); 
+        }
+        100% {
+          transform: translateX(0); 
+        }
+    }
+    
+ }
