@@ -46,39 +46,39 @@ a {
 }
 
 .map1 {
-    background-color: #DACFE5;
+    background-color: #111;
 }
 
 .map2 {
-    background-color: #B68C72;
+    background-color: #111;
 }
 
 .map3 {
-    background-color: #ABAAB4;
+    background-color: #111;
 }
 
 .map4 {
-    background-color:#939294;
+    background-color:#111;
 }
 
 .map5 {
-    background-color: #C9AB90;
+    background-color: #111;
 }
 
 .map6 {
-    background-color:#98AADA;
+    background-color:#111;
 }
 
 .map7 {
-    background-color: #586848;
+    background-color: #111;
 }
 
 .map8 {
-    background-color: #5C9FBC;
+    background-color: #111;
 }
 
 .map9 {
-    background-color: #8D9EA0;
+    background-color: #111;
 }
 
 .title-map {
@@ -86,7 +86,7 @@ a {
     justify-content: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color:black;
+    color:#FF4655;
 }
 
 .ctn-map {
@@ -136,4 +136,3 @@ a {
         font-size: 11px;
     }
 }
-

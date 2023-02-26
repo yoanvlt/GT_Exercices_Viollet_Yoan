@@ -8,11 +8,6 @@ body{
     font-family: 'test', sans-serif;;
 }
 
-@font-face {
-    font-family: 'test';
-    src: url('../assets/PorscheNext-Regular.otf');
-}
-
 .placement {
     display: flex;
     justify-content: center;
