@@ -11,7 +11,7 @@ body {
 
 
 table, th, td {
-    border: 1px solid aqua;
+    border: 3px solid #FF4566;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
 }
