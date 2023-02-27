@@ -58,3 +58,18 @@ body {
     border-bottom: 8px solid transparent;
     border-right: 10px solid #FF4655;
 }
+
+@media screen and (max-width: 850px) {
+    .line p {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .line p {
+        width: 380px;
+    }
+}
+    
+
+

@@ -8,7 +8,8 @@ import (
 
 func main() {
 	tmpl1 := template.Must(template.ParseFiles("formulaire.html"))
-
+	static := http.FileServer(http.Dir("assets"))
+	http.Handle("/assets/", http.StripPrefix("/assets/", static))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		tmpl1.Execute(w, nil)
 		name := r.FormValue("name")
