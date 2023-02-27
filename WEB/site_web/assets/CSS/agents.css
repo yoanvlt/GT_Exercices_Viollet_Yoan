@@ -127,12 +127,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .agent-image {
     width: 500px;
     height: 750px;
+}
+
+.agent-name {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:#FF4655;
+    margin-right: 50px;
+}
+
+.btn-class {
+    background-color: #FF4655;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:1200px) {

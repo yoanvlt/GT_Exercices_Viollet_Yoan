@@ -41,65 +41,28 @@
 }
   
 @keyframes slide {
-    0% {
-      transform: translateX(0); 
-    }
-    25% {
-      transform: translateX(-1000px); 
-    }
-    50% {
-      transform: translateX(-2000px); 
-    }
-    75% {
-      transform: translateX(-30000); 
-    }
-    100% {
-      transform: translateX(0); 
-    }
-}   
+  0% {
+    transform: translateX(0); 
+  }
+  25% {
+    transform: translateX(-1000px); 
+  }
+  50% {
+    transform: translateX(-2000px); 
+  }
+  75% {
+    transform: translateX(-3000px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}  
 
 @media screen and (max-width: 1200px) {
     .slider-container {
-        width:700px;
-        height: 350px;
-    }
-    .slider-wrapper img {
-        width: 700px;
-        height: 350px;
-    }
-
-    .slider-wrapper {
-        width: 2800px;
-    }
-
-    @keyframes slide {
-        0% {
-          transform: translateX(0); 
-        }
-        25% {
-          transform: translateX(-700px); 
-        }
-        50% {
-          transform: translateX(-1400px); 
-        }
-        75% {
-          transform: translateX(-2100px); 
-        }
-        100% {
-          transform: translateX(0); 
-        }
-    }
-
-    .text-car {
-        font-size: 30px;
-    }
-}
- @media screen and (max-width: 800px) {
-    .slider-container {
-        width: 500px;
+        width:500px;
         height: 250px;
     }
-
     .slider-wrapper img {
         width: 500px;
         height: 250px;
@@ -121,6 +84,43 @@
         }
         75% {
           transform: translateX(-1500px); 
+        }
+        100% {
+          transform: translateX(0); 
+        }
+    }
+
+    .text-car {
+        font-size: 30px;
+    }
+}
+ @media screen and (max-width: 800px) {
+    .slider-container {
+        width: 350px;
+        height: 150px;
+    }
+
+    .slider-wrapper img {
+        width: 350px;
+        height: 150px;
+    }
+
+    .slider-wrapper {
+        width: 1400px;
+    }
+
+    @keyframes slide {
+        0% {
+          transform: translateX(0); 
+        }
+        25% {
+          transform: translateX(-350px); 
+        }
+        50% {
+          transform: translateX(-700px); 
+        }
+        75% {
+          transform: translateX(-1050px); 
         }
         100% {
           transform: translateX(0); 

@@ -61,7 +61,7 @@ body {
 
 @media screen and (max-width: 850px) {
     .line p {
-        width: 250px;
+        width: 200px;
     }
 }
 
