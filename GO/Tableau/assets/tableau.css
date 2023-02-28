@@ -1,6 +1,6 @@
 body {
     background-color: #111;
-    color: white;
+    color: white; 
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -9,8 +9,14 @@ body {
     align-items: center;
 }
 
+table {
+    width:80%;
+    height: 80%;
+}
+
 
 table, th, td {
+  text-align: center;
     border: 3px solid #FF4566;
     border-collapse: collapse;
     padding: 10px;
@@ -18,12 +24,12 @@ table, th, td {
 
 
 @media screen and (max-width: 850px) {
-    table {
-      width: 90%;
-      height: 90%;
-    }
-    table, th, td {
-      width: 90%;
-    }
+  table {
+    width: 90%;
+    height: 90%;
+  }
+  table, th, td {
+    width: 90%;
+  }
 }
   
