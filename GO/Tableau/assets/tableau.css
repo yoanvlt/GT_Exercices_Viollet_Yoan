@@ -15,3 +15,15 @@ table, th, td {
     border-collapse: collapse;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 850px) {
+    table {
+      width: 90%;
+      height: 90%;
+    }
+    table, th, td {
+      width: 90%;
+    }
+}
+  
